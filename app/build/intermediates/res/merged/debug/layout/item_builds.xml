@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/build_name"
+        android:id="@+id/tvBuild_name"
+        android:textSize="20sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imgv_champ"
+        android:src="@drawable/ic_menu_slideshow"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/tvBuild_name"
+        android:layout_alignLeft="@+id/tvBuild_name"
+        android:layout_alignStart="@+id/tvBuild_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:id="@+id/tv_author"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="7dp"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/imgv_champ"
+        android:layout_toRightOf="@+id/imgv_champ"
+        android:layout_toEndOf="@+id/imgv_champ" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/date"
+        android:id="@+id/tv_date"
+        android:textSize="18sp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/tv_author"
+        android:layout_alignLeft="@+id/tv_author"
+        android:layout_alignStart="@+id/tv_author" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar_build"
+        style="?attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.1"
+        android:rating="3.4"
+        android:layout_alignBottom="@+id/imgv_champ"
+        android:layout_alignLeft="@+id/tv_date"
+        android:layout_alignStart="@+id/tv_date" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imgv_season"
+        android:src="@drawable/ic_menu_gallery"
+        android:layout_alignTop="@+id/tv_author"
+        android:layout_alignRight="@+id/tvBuild_name"
+        android:layout_alignEnd="@+id/tvBuild_name" />
+
+</RelativeLayout>

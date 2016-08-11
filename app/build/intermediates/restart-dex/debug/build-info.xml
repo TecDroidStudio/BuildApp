@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="13984144061247"
+    token="-8693836699339127927"
+    verifier="METHOD_DELETED" >
+
+    <task
+        name="javac"
+        duration="96" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="20" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/home/yoshi/StudioProjects/BuildApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+
+    <build timestamp="7794334746258" >
+        <artifact
+            location="/home/yoshi/StudioProjects/BuildApp/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="13984144061247"
+        verifier="METHOD_DELETED" >
+        <artifact
+            location="/home/yoshi/StudioProjects/BuildApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

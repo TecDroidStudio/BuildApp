@@ -1,0 +1,4 @@
+CHANGED,/home/yoshi/StudioProjects/BuildApp/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/buildapp/MainActivity$CustomListViewBuild$override.class
+CHANGED,/home/yoshi/StudioProjects/BuildApp/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/yoshi/StudioProjects/BuildApp/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/buildapp/MainActivity$ContentPage$override.class
+CHANGED,/home/yoshi/StudioProjects/BuildApp/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/buildapp/MainActivity$override.class
